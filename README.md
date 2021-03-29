@@ -26,6 +26,7 @@ In place of source, enter the URL of your IP Camera application. Format for this
 For example, I'm using an Android application called [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam) which at an instance shows this page.
 
 ![1616989007121](https://user-images.githubusercontent.com/80940234/112825314-3bad0680-90a9-11eb-8389-75bc66169550.jpg)
+
 So, in this instance my source URL would be ```http://100.83.0.70:4747/video```. And the complete command would be
 ```sh
 $-> python realtime_barcode_reader.py --video http://100.83.0.70:4747/video
