@@ -32,7 +32,7 @@ So, in this instance my source URL would be ```http://100.83.0.70:4747/video```.
 $-> python realtime_barcode_reader.py --video http://100.83.0.70:4747/video
 ```
 
-> **NOTE** : Make sure that your computer is connected to the same network as your smartphone (preferably use your phone’s portable hotspot), and the DroidCam application is running in your phone.
+> **NOTE** : Make sure that your computer is connected to the same network as your smartphone (preferably use your phone’s portable hotspot), and the IP Camera application is running in your phone.
 
 If you want to use your computer’s primary or secondary webcam as the video source, use source as 0 or 1 respectively, in the command above. For example, the below command starts your computer’s primary webcam as the video source.
 ```sh
