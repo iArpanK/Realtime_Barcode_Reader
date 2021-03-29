@@ -41,19 +41,19 @@ On punching either of these commands as per your choice, the **realtime_barcode_
 ![Screenshot (133)](https://user-images.githubusercontent.com/80940234/112826604-d823d880-90aa-11eb-9dd4-973ea31aae55.png)
 
 ### Sample Runs
-
+---
 Attached below are some sample shots.
 
 ![Untitled collage](https://user-images.githubusercontent.com/80940234/112828520-6bf6a400-90ad-11eb-9630-59833f24a1df.jpg)
 
 ### Log
-
+---
 On every run, this program generates a log file (log.txt) which contains the exact last session timestamp and details of the unique barcodes scanned.
 
 ![Screenshot (169)](https://user-images.githubusercontent.com/80940234/112828876-ed4e3680-90ad-11eb-8651-5d19a8f29fee.png)
 
 ### Notes
-
+---
 For IP Camera application, you can download either of these apps:
 
 [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam)
