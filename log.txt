@@ -1,0 +1,5 @@
+Log created : 2021-03-29 17:08:18.764178
+
+[Alert] New Barcode detected : https://www.tp-link.com/products/details/?model=UB400_V1 (QRCODE)
+[Alert] New Barcode detected : 6935364099664 (EAN13)
+[Alert] New Barcode detected : 9780340822531 (EAN13)
