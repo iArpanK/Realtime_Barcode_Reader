@@ -22,7 +22,8 @@ After all the required libraries have been installed, the program can be run as
 ```sh
 $-> python realtime_barcode_reader.py --video <source>
 ```
-In place of <source>, enter the URL of your IP Camera application. Format for this is ``` http://<IP_address>:<PORT>/video```. 
+In place of source, enter the URL of your IP Camera application. Format for this is ``` http://<IP_address>:<PORT>/video```. 
+
 For example, I'm using an Android application called [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam) which shows these two instances.
 
 
