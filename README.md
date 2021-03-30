@@ -22,8 +22,9 @@ After all the required libraries have been installed, the program can be run as
 ```sh
 $-> python realtime_barcode_reader.py --video <source>
 ```
-In place of source, enter the URL of your IP Camera application. Format for this is ``` http://<IP_address>:<PORT>/video```. 
+In place of <source>, enter the URL of your IP Camera application. Format for this is ``` http://<IP_address>:<PORT>/video```. 
 For example, I'm using an Android application called [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam) which shows these two instances.
+
 
 ![1616989007121](https://user-images.githubusercontent.com/80940234/112825314-3bad0680-90a9-11eb-8389-75bc66169550.jpg) ![1617037915127](https://user-images.githubusercontent.com/80940234/112928918-182f9d80-9135-11eb-86a0-a4bb33c35d63.jpg)
 1. First instance : I connected my computer to my phone's personal hotspot
@@ -37,7 +38,10 @@ And in the second instance, my source URL would be ```http://192.168.43.39:4747/
 ```sh
 $-> python realtime_barcode_reader.py --video http://192.168.43.39:4747/video
 ```
-> **NOTE** : In both these instances, note that your computer needs to be connected to the same network as your smartphone. Also, keep the IP Camera application running in your phone.
+
+
+> **NOTE** : In both these instances, note that your computer needs to be connected to the same network as your phone. Also, keep the IP Camera application running in your phone.
+
 
 If you want to use your computer’s primary or secondary webcam as the video source, use source as 0 or 1 respectively, in the command above. For example, the below command starts your computer’s primary webcam as the video source.
 ```sh
@@ -48,6 +52,8 @@ On punching either of these commands as per your choice, the **realtime_barcode_
 **Now we are ready to scan different barcodes!**
 
 ![Screenshot (171)](https://user-images.githubusercontent.com/80940234/112930070-444c1e00-9137-11eb-95df-a7448370d5db.png)
+
+To exit the program, press the ESC key on your computer.
 
 ### Sample Runs
 ---
